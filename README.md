@@ -6,7 +6,7 @@
 
 ## Scenario
 - Try to query the MongoDB Atlas Vector search
-- This demo doesn't included text generation, it's just a simple query to MongoDB Atlas Vector search
+- This demo doesn't included text generation, it's just a simple query to MongoDB Atlas Vector search by using embbedding from OpenAI to generate the vector and use Atlas Vector search to query the data similiary
 
 ## Setup
 ```bash
