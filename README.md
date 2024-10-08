@@ -10,8 +10,8 @@
 
 ## Setup
 ```bash
-export API_ENDPOINT='<API_ENDPOINT>'
-export API_KEY='<API_KEY>'
+export AZURE_OPENAI_ENDPOINT='<API_ENDPOINT>'
+export AZURE_OPENAI_KEY='<API_KEY>'
 export MONGODB_ATLAS_URI='<MONGODB_ATLAS_URI>'
 ```
 
