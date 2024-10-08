@@ -1,11 +1,12 @@
+require('dotenv').config()
 const axios = require('axios')
 const fs = require('fs')
 
 const { db } = require('./db')
 const {writeText}=require('./write-file')
 
-const endpoint = prcoess.env.AZURE_OPENAI_ENDPOINT
-const key = process.env.API_KEY
+const endpoint = process.env.AZURE_OPENAI_ENDPOINT
+const key = process.env.AZURE_OPENAI_KEY
 
 async function main() {
   const input = process.argv[2]
